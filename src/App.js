@@ -6,7 +6,6 @@ import ThemeContextProvider from "./contexts/ThemeContext";
 function App() {
   return (
     <div className="App">
-      <h1>Context App</h1>
       <ThemeContextProvider>
         <Navbar />
         <BookList />
