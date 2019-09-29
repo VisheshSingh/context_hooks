@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { ThemeContext } from "../contexts/ThemeContext";
+import React, { Component } from 'react';
+import { ThemeContext } from '../contexts/ThemeContext';
 
 class BookList extends Component {
   static contextType = ThemeContext;
@@ -8,7 +8,7 @@ class BookList extends Component {
     const theme = isLight ? light : dark;
     return (
       <div
-        className="booklist"
+        className='booklist'
         style={{ background: theme.bg, color: theme.syntax }}
       >
         <ul>
